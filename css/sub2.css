@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'SF_IceMango';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceMango.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*hader*/
+#header {
+  width: 1320px;
+  margin: auto;
+}
+
+#header ul li {
+  float: right;
+  padding: 25px 80px;
+}
+
+#header .logo {
+  float: left;
+  padding: 10px 80px;
+}
+
+/*hader*/
+
+/*main사진*/
+#main {
+  width: 100%
+}
+
+#main {
+  padding-bottom: 200px;
+}
+
+/*footer*/
+
+#footer_box {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.border {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+#footer_box>a {
+  float: left;
+}
+
+#footer {
+  float: left;
+}
+
+#footer ul li {
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.top li {
+  float: left;
+}
+
+#gd {
+  clear: both;
+}
+
+#footer {
+  padding-left: 50px;
+}
+
+#gd {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*footer*/
+
+/*불릿모양. swiper-pagination-bullet-active 클래스가 현재 색상이 들어간 부분 나타냄*/
+.swiper-pagination-bullet-active {
+  width: 30px;
+  border-radius: 4px;
+  background-color: cornflowerblue;
+}
+
+.swiper {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*hy*/
+#hy {
+  width: 1320px;
+  text-align: center;
+  margin: auto;
+}
+
+#hy {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*hy*/
+
+#ga {
+  width: 1320px;
+  margin: auto;
+  padding-bottom: 300px;
+}
+
+#hyy {
+  width: 1320px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+#ap {
+  width: 1320px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+#by {
+  width: 1320px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+#bgbox {
+  background-image: url(../images/sub2/gd1.png);
+  width: 100%;
+  height: 635px;
+  margin-bottom: 150px;
+}
+
+#bg {
+  width: 1215px;
+  margin: auto;
+}
+
+#bg ul li {
+  float: left;
+  padding: 40px 40px;
+}

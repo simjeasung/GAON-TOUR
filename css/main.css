@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'SF_IceMango';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceMango.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#header {
+  width: 1320px;
+  margin: auto;
+}
+
+#header ul li {
+  float: right;
+  padding: 25px 80px;
+}
+
+#header .logo {
+  float: left;
+  padding: 10px 80px;
+}
+
+#gaon {
+  text-align: center;
+  padding: 100px;
+}
+
+#box {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#gaon1 {
+  float: left;
+}
+
+#text {
+  float: right;
+}
+
+#box #text h2 {
+  font-family: 'SF_IceMango';
+  font-size: 48px;
+  color: #5270dc;
+}
+
+#box #text p {
+  font-size: 18px;
+}
+
+#box #text {
+  padding-top: 220px;
+}
+
+#box1 {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#box1 {
+  text-align: center;
+
+}
+
+#box1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bg1 {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.bg1 {
+  background-image: url(../images/ow.jpg);
+  background-attachment: fixed;
+}
+
+.bg1 p {
+  font-size: 48px;
+  font-family: 'SF_IceMango';
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.bg1 h2 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+
+#bg2 {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+#bg3 {
+  width: 1398px;
+  margin: auto;
+}
+
+#bg3 ul li {
+  float: left;
+  padding-bottom: 100px;
+}
+
+#bg4 {
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+#bg5 {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#bg5 .ad1 {
+  float: left;
+  padding: 0 10px 10px;
+}
+
+#bg5 .ad2 .ad3 {
+  padding-top: 17px;
+}
+
+#bg6 {
+  padding-top: 200px;
+}
+
+#bg6 {
+  padding-bottom: 50px;
+}
+
+#footer_box {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.border {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+#footer_box>a {
+  float: left;
+}
+
+#footer {
+  float: left;
+}
+
+#footer ul li {
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.top li {
+  float: left;
+}
+
+#gd {
+  clear: both;
+}
+
+#footer {
+  padding-left: 50px;
+}
+
+#gd {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#or {
+  position: relative;
+}
+
+.im {
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  transform: translateX(-50%);
+}
+
+.mySwiper {
+  padding-bottom: 50px;
+}
+
+.rebox {
+  position: relative;
+  width: 1320px;
+  margin: auto;
+}
+
+.swiper-button-next {
+  right: -50px;
+}
+
+.swiper-button-prev {
+  left: -50px;
+}

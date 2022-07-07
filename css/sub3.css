@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'SF_IceMango';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceMango.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#header {
+  width: 1320px;
+  margin: auto;
+}
+
+#header ul li {
+  float: right;
+  padding: 25px 80px;
+}
+
+#header .logo {
+  float: left;
+  padding: 10px 80px;
+}
+
+#gaon {
+  text-align: center;
+  padding: 100px;
+}
+
+#main {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#text {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  padding-top: 300px;
+}
+
+#text2 {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tabs li {
+  float: left;
+}
+
+.tabs li a {
+
+  display: block;
+  padding: 15px 42.5px;
+  border: 1px solid #000;
+}
+
+.tabs li.active {
+  background-color: cornflowerblue;
+}
+
+.tab_container {
+  padding: 15px 0px;
+}
+
+.tab_content {
+  height: 500px;
+}
+
+.tab_content ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#poto {
+  width: 1320px;
+  margin: 0 auto;
+  padding-left: 270px;
+}
+
+#bg6 {
+  padding-top: 200px;
+}
+
+#bg6 {
+  padding-bottom: 50px;
+}
+
+#footer_box {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.border {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+#footer_box>a {
+  float: left;
+}
+
+#footer {
+  float: left;
+}
+
+#footer ul li {
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.top li {
+  float: left;
+}
+
+#gd {
+  clear: both;
+}
+
+#footer {
+  padding-left: 50px;
+}
+
+#gd {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#or {
+  position: relative;
+}
+
+.im {
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  transform: translateX(-50%);
+}
+
+.mySwiper {
+  padding-bottom: 50px;
+}
+
+.rebox {
+  position: relative;
+  width: 1320px;
+  margin: auto;
+}
+
+.swiper-button-next {
+  right: -50px;
+}
+
+.swiper-button-prev {
+  left: -50px;
+}
+
+#tabl h3 {
+  font-size: 20px;
+}
+
+#tab2 h3 {
+  font-size: 16px;
+}
+
+#tab3 h3 {
+  font-size: 16px;
+}
+
+#tab4 h3 {
+  font-size: 16px;
+}
+
+#tab5 h3 {
+  font-size: 16px;
+}
+
+#tab6 h3 {
+  font-size: 16px;
+}
+
+#tab7 h3 {
+  font-size: 16px;
+}

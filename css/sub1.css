@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'SF_IceMango';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceMango.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*hader*/
+#header {
+  width: 1320px;
+  margin: auto;
+}
+
+#header ul li {
+  float: right;
+  padding: 25px 80px;
+}
+
+#header .logo {
+  float: left;
+  padding: 10px 80px;
+}
+
+/*hader*/
+
+/*header_inner*/
+#header_inner {
+  width: 1320px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/*header_inner*/
+
+/*text*/
+#text {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+#text p {
+  margin-top: 20px;
+}
+
+/*text*/
+
+/*tr*/
+#tr {
+  width: 1320px;
+  margin: auto;
+  padding-bottom: 300px;
+}
+
+/*tr*/
+
+/*gaon*/
+#gaon {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#gaon p {
+  padding-bottom: 50px;
+}
+
+/*gaon*/
+
+/*gaon1*/
+#gaon1 {
+  width: 1320px;
+  margin: auto;
+  padding-bottom: 400px;
+}
+
+/*gaon1*/
+
+/*rod*/
+#rod {
+  width: 1320px;
+  margin: auto;
+}
+
+#rod h1 {
+  padding-bottom: 20px;
+}
+
+.rod1 {
+  padding-bottom: 300px;
+}
+
+/*rod*/
+
+/*footer*/
+
+#footer_box {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.border {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+#footer_box>a {
+  float: left;
+}
+
+#footer {
+  float: left;
+}
+
+#footer ul li {
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.top li {
+  float: left;
+}
+
+#gd {
+  clear: both;
+}
+
+#footer {
+  padding-left: 50px;
+}
+
+#gd {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*footer*/
